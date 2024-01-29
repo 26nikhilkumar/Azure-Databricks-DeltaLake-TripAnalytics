@@ -12,6 +12,18 @@ This project implements Analytics/Insights on trip transaction and ride-based da
 ## Architecture Diagram
 ![github project drawio](https://github.com/26nikhilkumar/Azure-Databricks-DeltaLake-TripAnalytics/assets/59439090/89d83086-0cbb-4f63-8542-aba1d5ab1655)
 
+# Project Structure
+
+### Folders:
+1. **Bronze Zone:** This folder contains the 'Delta_Lake_validation' script related to the initial stage of data processing where raw data is ingested.
+2. **Silver Zone:** This folder is designed for scripts that transform the raw data from the Bronze Zone into a more analyst-friendly format. It includes six different scripts.
+3. **Gold Zone:** This folder holds scripts for the final stage of data processing, where transformed data from the Silver Zone is further refined and made ready for analytics. It includes the following file:
+    - **Final_Reports:** This script generates final reports with customer and driver rankings based on different measures such as total distance, total fare, and the number of trips.
+
+### Files:
+1. **Config:** This file contains the configuration settings for the Azure Blob Storage.
+2. **PySpark_upload_data_to_DB_Script:** This file contains the PySpark script for loading the CSV data from Azure Blob Storage into an Azure SQL Database.
+
 ## Key Takeaways 
 - Understanding the Trip transaction dataset
 - Understanding the Features of Delta Lake
