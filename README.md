@@ -13,15 +13,15 @@ This project implements Analytics/Insights on trip transaction and ride-based da
 ![github project drawio](https://github.com/26nikhilkumar/Azure-Databricks-DeltaLake-TripAnalytics/assets/59439090/89d83086-0cbb-4f63-8542-aba1d5ab1655)
 
 ## Key Takeaways 
-● Understanding the Trip transaction dataset
-● Understanding the Features of Delta Lake
-● Understanding the Evolution of Delta Lake from Data Lake
-● Understanding the Medallion Architecture
-● Overview of Azure Data Factory
-● Creating Dataflow in Azure Data Factory
-● Creating Pipelines in Azure Data Factory
-● Creating Datasets in Azure Data Factory
-● Transforming data using PySpark in Databricks notebooks
-● Scheduling the Pipeline in Azure Data Factory
-● Creating Logic Apps to trigger emails for pipeline resiliency
-● Monitoring Sessions in Azure Data Factory
+- Understanding the Trip transaction dataset
+- Understanding the Features of Delta Lake
+- Understanding the Evolution of Delta Lake from Data Lake
+- Understanding the Medallion Architecture
+- Overview of Azure Data Factory
+- Creating Dataflow in Azure Data Factory
+- Creating Pipelines in Azure Data Factory
+- Creating Datasets in Azure Data Factory
+- Transforming data using PySpark in Databricks notebooks
+- Scheduling the Pipeline in Azure Data Factory
+- Creating Logic Apps to trigger emails for pipeline resiliency
+- Monitoring Sessions in Azure Data Factory
