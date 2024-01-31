@@ -1,5 +1,3 @@
-End-to-end data engineering project utilizing Azure Data Factory, Databricks, and Delta Lake. Focuses on analyzing trip and rating data following the Medallion Architecture approach. Includes data ingestion, transformation, pipeline scheduling, and the use of Logic Apps for resiliency.
-
 # Azure-Databricks-DeltaLake-TripAnalytics
 This project implements Analytics/Insights on trip transaction and ride-based data from SQL Server, leveraging Azure Data Factory (ADF), Azure Blob Storage (ADLS Gen2), and Azure Databricks. It follows the Medallion Architecture approach, which includes data ingestion into a Bronze Zone, data transformation via Azure Databricks, and data loading into Delta tables for the Gold Zone. Additionally, it involves pipeline creation and scheduling using Azure Data Factory and Logic Apps for pipeline resiliency to trigger emails.
 
